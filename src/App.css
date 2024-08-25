@@ -1,0 +1,24 @@
+/* 웹 접근성을 고려한 콘텐츠 숨기기 */
+/* .screen_reader_only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
+} */
+
+#application {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+
+  padding-top: 194px;
+  text-align: center;
+  font-family: GmarketSansMedium;
+  color: var(--white_color);
+  background-color: var(--purple_color);
+}

@@ -6,12 +6,12 @@ import Modal from './components/Modal/Modal';
 
 function App() {
   return (
-    <>
+    <div id="application">
       <Header />
       <Main />
       <Footer />
       <Modal />
-    </>
+    </div>
   );
 }
 export default App;
