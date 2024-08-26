@@ -1,0 +1,65 @@
+#header_container {
+	margin-bottom: 96px
+}
+
+.header_title {
+  display: inline-block;
+  position: relative;
+}
+
+.header_title .header_logo {
+  position: relative;
+  z-index: 10;
+}
+
+.header_title::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 225px;
+  height: 225px;
+  margin: -112px 0 0 -112px;
+  background-image: url("../../assets/title_clock_background.png");
+  background-position: center;
+}
+
+.header_quote {
+  max-width: 486px;
+  margin: 125px auto 84px;
+}
+
+.header_quote_meaning {
+  position: relative;
+  max-width: 475px;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.header_quote_meaning .tit-header_quote_meaning_bold {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header_quote_meaning::before,
+.header_quote_meaning::after {
+  position: absolute;
+  top: 50%;
+  display: block;
+  content: '';
+  width: 37px;
+  height: 32px;
+  margin-top: -16px;
+}
+
+.header_quote_meaning::before {
+  left: 0;
+  background-image: url("../../assets/txt_left_quotes.png");
+}
+
+.header_quote_meaning::after {
+  right: 0;
+  background-image: url("../../assets/txt_right_quotes.png");
+}
