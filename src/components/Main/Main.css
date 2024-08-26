@@ -1,0 +1,72 @@
+#main {
+  margin-bottom: 130px;
+}
+
+.form_box,
+.training_result {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.form_box {
+  margin-bottom: 150px;
+}
+
+.form_box .form_text_expert {
+  margin-bottom: 30px;
+}
+
+.form_box .form_text_time {
+  margin-bottom: 116px;
+}
+
+.form_box .form_text_expert input,
+.form_box .form_text_time input {
+  width: 224px;
+  height: 53px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.form_box .training_day_button {
+  position: relative;
+}
+
+.form_box .training_day_button::after {
+  display: block;
+  position: absolute;
+  right: -72px;
+  bottom: -20px;
+  content: '';
+  width: 64px;
+  height: 72px;
+  background-image: url("../../assets/click_hand.png");
+}
+
+.training_result .form_text_expert,
+.training_result .form_text_time {
+  line-height: 68px;
+}
+
+.training_result .form_text_expert {
+  margin-bottom: 22px;
+}
+
+.training_result .form_text_time {
+  margin-bottom: 127px;
+}
+
+.training_result .form_text_expert strong,
+.training_result .form_text_time strong {
+  font-size: 72px;
+  vertical-align: top;
+  font-family: GmarketSansBold;
+}
+
+.training_share_button {
+  margin-left: 18px;
+  background-color: #fff;
+}
