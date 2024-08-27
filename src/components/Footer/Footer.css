@@ -1,0 +1,16 @@
+#footer_container {
+  margin-top: 130px;
+  padding-bottom: 70px;
+  font-family: Noto Sans KR;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  background-color: #5b2386;
+  color: #fff;
+}
+
+#footer_container .footer_logo {
+  width: 125px;
+  height: 25px;
+  margin: 0 auto 20px;
+}
