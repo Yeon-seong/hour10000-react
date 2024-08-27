@@ -68,5 +68,5 @@
 
 .training_share_button {
   margin-left: 18px;
-  background-color: #fff;
+  background-color: var(--white_color);
 }

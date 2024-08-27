@@ -5,8 +5,8 @@
   font-size: 12px;
   line-height: 17px;
   text-align: center;
-  background-color: #5b2386;
-  color: #fff;
+  background-color: var(--purple_color);
+  color: var(--white_color);
 }
 
 #footer_container .footer_logo {

@@ -8,9 +8,9 @@
   align-items: center;
   justify-content: center;
   padding: 68px 100px;
-  background-color: #FFF;
+  background-color: var(--white_color);
   border-radius: 20px;
-  color: #5B2386;
+  color: var(--purple_color);
   text-align: center;
 }
 
